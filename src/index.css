@@ -1,13 +1,88 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 50%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.message {
+  height: auto;
+  margin: 10px 5px;
+  text-align: left;
+  padding: 10px 20px;
+  /* background-color: gray;
+  color: aliceblue; */
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+hr {
+  border-top: 1px dotted lightgray;
+}
+
+.feed {
+  text-align: left;
+}
+
+.feed img {
+  border: 2px solid green;
+  border-radius:50%;
+  padding:5px;
+  width: 40px;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 0; 
+  margin: 0; 
+}
+
+i {
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+a {
+  margin: 10px 10px;
+}
+
+.feed textarea {
+  margin-top: 10px;
+  height: 60px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.message__reply__sent {
+  margin-left: 20px;
+}
+
+.login__container fieldset {
+  border-radius: 20px;
+}
+
+.login__container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.login__container input {
+  height: 30px;
+  width: 200px;
+  margin: 10px 10px;
+  padding: auto;
+  border-radius: 10px;
+}
+
+.login__container button {
+  height: 30px;
+  width: 100px;
+  margin: 10px 10px;
+  padding: auto;
+  border-radius: 10px;
 }
